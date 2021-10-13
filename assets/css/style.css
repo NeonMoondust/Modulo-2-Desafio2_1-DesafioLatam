@@ -1,0 +1,121 @@
+/*Normalize------*/
+body,h1,h2,h3,h4,h5,p,section,article,div,nav,footer,ul,li,ol{margin: 0;padding: 0;}
+/*Normalize------*/
+nav{
+    border-bottom: solid #729E2E 5px;
+    box-shadow: 0px 5px 0 #507C0C;
+}
+body{
+    background-color: #35313C;
+    font-family: 'Orbitron', sans-serif;;
+}
+.main-logo{
+    display: inline-block;
+    padding-bottom: 0.5rem;
+    margin-left: 2rem;
+}
+
+h1{
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+    padding-right: 12rem;
+}
+
+.box-mostrar{
+    background-color: #1B1C20;
+    margin: 2rem 1rem 0px;
+}
+
+h2{
+    padding: 1rem .5rem;
+    border-bottom: #507C0C solid 3px;
+}
+
+.explicacion{
+    color:#fff;
+    font-size: 15px;
+    width: 70%;
+}
+
+
+
+.text-button{
+    margin-top: 1.5rem;
+    color: #729E2E;
+}
+
+button {
+    margin: .5rem .2rem 2rem;
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    background-color:#729E2E;
+    color: #fff;
+    padding: 10px;
+    width: 75%;
+    text-align: center;
+    transition-duration: 0.4s;
+    overflow: hidden;
+    box-shadow: 0 5px 15px #193047;
+    border-radius: 4px;
+    font-weight: 700;
+}
+  
+button:hover {
+    background: #fff;
+    box-shadow: 0px 2px 10px 5px #1abc9c;
+    color: #000;
+}
+  
+button:after {
+    content: "";
+    background: #35313C;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+  
+button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+  
+.button:focus { outline:0; }
+
+.tabla-resultados {
+    margin-top: 2rem;
+    color: #729E2E;
+    background-color: #1B1C20;
+    border: 1.5px solid #FFC107;
+}
+.box-numeros{
+    font-weight: 300;
+    border: 1.5px solid #34363B;
+    /* border-top: 1.5px solid #34363B; */
+    min-height: 40px;
+    padding-top: 6px;
+}
+.box-simbolos{
+    color: #fff;
+    font-weight: 700;
+    border: 1.5px solid #34363B;
+    /* border-top: 1.5px solid #34363B; */
+    min-height: 40px;
+    padding-top: 6px;
+}
+
+footer{
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+    border-top: solid #729E2E 5px;
+    box-shadow: 0px -5px 0 #507C0C;
+    font-weight: 700;
+}
